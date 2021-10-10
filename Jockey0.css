@@ -127,7 +127,7 @@ body {
     border: 1px solid red;
     height: 600px;
     width: 350px;
-    margin: 150px 50px 0px 42px;
+    margin: 50px 50px 0px 42px;
     background-color: whitesmoke;
     border-radius: 15px;
     float: left;
@@ -146,10 +146,11 @@ body {
     text-align: justify;
 }
 .container {
-    height: 760px;
+    height: 700px;
     width: 1335px;
-    margin: 520px 0px 0px 0px;
+    margin: 600px 0px 0px 0px;
     border: 1px solid green;
     background-color: rgba(240, 255, 240, 0.199);
     border-radius: 20px;
+    position: relative;
 }
