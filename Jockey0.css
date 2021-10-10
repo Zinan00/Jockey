@@ -1,0 +1,155 @@
+body {
+    background-color: white;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    height: 109vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.navigation {
+    background-color: thistle;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: cursive;
+}
+.navigation a:hover {
+    background-color: rgba(0, 255, 255, 0.144);
+    border-radius: 80px;
+    
+}
+.navigation a{
+    text-decoration: none;
+    padding: 20px;
+}
+#search {
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding-left: 15px;
+    font-size: medium;
+    font-family: cursive;
+}
+#search:focus {
+    font-size: large;
+}
+#btn {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    font-family: cursive;
+    font-size: medium;
+}
+#btn:hover {
+    background-color: white;
+}
+.sign-up{
+    border: transparent;
+    height: 500px;
+    width: 400px;
+    float: right;
+    border-radius: 20px;
+    margin: 20px 70px 0px 0px;
+    text-align: center;
+    background-color: rgba(192, 192, 192, 0.418);
+}
+.sign-up a{
+    text-decoration: none;
+    font-family: cursive;
+    font-size: large;
+}
+.login input {
+    height: 40px;
+    width: 300px;
+    margin: 5px;
+    padding-left: 15px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+#login {
+    height: 40px;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: transparent;
+    cursor: pointer;
+    background-color: wheat;
+    font-family: cursive;
+    font-size: medium;
+}
+#login:hover {
+    background-color: whitesmoke;
+} 
+.text {
+    font-family: cursive;
+    cursor: pointer;
+}
+.intro {
+    border: transparent;
+    float: left;
+    height: 400px;
+    width: 700px;
+    margin: 70px 0px 50px 70px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.intro h1{
+    margin: 38px 0px -31px 0px;
+}
+.para {
+    color: sandybrown;
+    font-size: large;
+}
+#call {
+    height: 40px;
+    width: 200px;
+    margin: 10px 0px 0px 200px;
+    border-radius: 20px;
+    border: transparent;
+    cursor: pointer;
+    background-color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    color: orange;
+}
+#call:focus {
+    font-size: small;
+}
+#call:hover {
+    background-color: white;
+}
+.card {
+    border: 1px solid red;
+    height: 600px;
+    width: 350px;
+    margin: 150px 50px 0px 42px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    float: left;
+    transition: transform .5s;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.img {
+    height: 450px;
+    width: 350px;
+    border-radius: 15px;
+}
+.card p {
+    padding: 0px 5px 0px 5px;
+    text-align: justify;
+}
+.container {
+    height: 760px;
+    width: 1335px;
+    margin: 520px 0px 0px 0px;
+    border: 1px solid green;
+    background-color: rgba(240, 255, 240, 0.199);
+    border-radius: 20px;
+}
